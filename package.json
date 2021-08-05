@@ -1,0 +1,22 @@
+{
+  "name": "leaderboard-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IjayAbby/leaderboard-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IjayAbby/leaderboard-api/issues"
+  },
+  "homepage": "https://github.com/IjayAbby/leaderboard-api#readme"
+}
