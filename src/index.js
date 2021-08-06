@@ -1,4 +1,4 @@
-import { createGame, getUsersData, createUserData } from './api'
+import { createGame, getUsersData, createUserData } from './api';
 
 const refreshButton = document.getElementById('refresh-button');
 
