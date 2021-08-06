@@ -1,3 +1,4 @@
+import './style.css';
 import { createGame, getUsersData, createUserData } from './api';
 
 const refreshButton = document.getElementById('refresh-button');
