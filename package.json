@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "start": "webpack serve --open --mode development"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/IjayAbby/leaderboard-api/issues"
   },
-  "homepage": "https://github.com/IjayAbby/leaderboard-api#readme"
+  "homepage": "https://github.com/IjayAbby/leaderboard-api#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.0"
+  }
 }
