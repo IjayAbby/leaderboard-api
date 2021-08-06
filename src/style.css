@@ -1,0 +1,35 @@
+/* Add styles */
+
+body {
+   margin: 0;
+   padding: 0;
+   border-radius: none; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.refresh-scores {
+    display: flex;
+}
+
+#refresh-button {
+  padding: 2em;
+}
+
+#scrores-display {
+    border-style: solid;
+    background-color: cyan;
+}
+
+.input-scores {
+    display: table-caption;
+}
+
+#user-score {
+    margin: 1em 0;
+}
+
+
+
