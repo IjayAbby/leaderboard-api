@@ -24,16 +24,16 @@ h1 {
   font-size: 20px;
 }
 
-#refresh-button {
+.refresh-btn {
   margin: 18px;
 }
 
-#scores-display {
+.display-scores {
   border: 3px solid black;
   padding: 5px 1px;
 }
 
-#scores-display div:nth-of-type(2n) {
+.display-scores div:nth-of-type(2n) {
   background-color: rgb(233, 230, 230);
 }
 
@@ -41,7 +41,7 @@ h1 {
   display: table-caption;
 }
 
-#user-score {
+.score {
   margin: 1em 0;
 }
 
