@@ -4,7 +4,7 @@
 
 > App written in JavaScript to submit scores, and to view scores of different players
 
-The objective of this App is to submit scores and grab others from the list of online scores using an API
+The objective of this App is to submit scores and grab others from the list of online scores from a game  using a private  API.
 
 
 ## Built With
